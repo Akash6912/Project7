@@ -1,0 +1,310 @@
+/* general Setting */
+
+body {
+  margin: 0;
+  background-color: hsl(218, 28%, 13%);
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Headings */
+
+h1 {
+  font-weight: 700;
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 46px;
+  line-height: 1.3;
+}
+
+h3 {
+  text-align: center;
+  width: 75%;
+  font-size: 20px;
+}
+
+
+/* header */
+
+.btn {
+  border-radius: 25px;
+  text-align: center;
+  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  text-decoration: none;
+  padding: 15px 85px;
+  margin-left: 635px;
+  font-size: 18px;
+  color: #fff;
+}
+
+
+header {
+  background-image: url(../images/bg-curvy-desktop.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  background-color: hsl(217, 28%, 15%);
+  padding-bottom: 250px;
+}
+
+.illustration-intro {
+  margin: 75px 0 25px 140px;
+}
+
+.logo {
+  float: left;
+  margin: 60px 0px 0 75px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 50px;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-intro {
+  width: 39%;
+  text-align: center;
+  margin: 25px auto 45px;
+  font-size: 23px;
+}
+
+nav {
+  float: right;
+  padding-right: 100px;
+  margin-top: 60px;
+}
+
+/* Features */
+
+.box-1, .box-3 {
+    position: absolute;
+    left: 350px;
+    width: 25%;
+}
+
+.box-2, .box-4 {
+  margin-left: 850px;
+  width: 25%;
+}
+
+.features-img {
+  margin-left: 100px;
+}
+
+.features-intro {
+  width: 80%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.row-1, .row-2 {
+  position: relative;
+}
+
+.row-2 {
+  margin: 75px 0;
+}
+
+/* productive section */
+
+.illustration-stay-productive {
+  left: 110px;
+  top: 50px;
+  position: absolute;
+}
+
+.intro {
+  position: relative;
+}
+
+.productive {
+  margin-left: 775px;
+  padding-top: 125px;
+  width: 30%;
+}
+
+.productive-intro {
+  font-size: 46px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.productive-para {
+  line-height: 1.2;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.link {
+  font-size: 17px;
+  color:hsl(176, 68%, 64%);
+}
+
+/* Testimonals */
+
+.boxes {
+  width: 23%;
+  padding: 25px 0px 15px 25px;
+  display: inline-block;
+  background-color:  hsl(219, 30%, 18%);
+  margin-top: 25px;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.first {
+  margin-left: 150px;
+}
+
+.second {
+  margin: 45px;
+}
+
+blockquote {
+  margin-left: 55px;
+  margin-top: 35px;
+}
+
+.box-intro{
+  width: 90%;
+  text-align: left;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.profile-img {
+  width: 12%;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.quotes {
+  position: absolute;
+  left: 140px;
+  margin-top: 10px;
+  z-index: -1;
+}
+
+.testimonals {
+  margin-top: 250px;
+}
+
+/* Access Section */
+
+.access-box {
+  position: relative;
+  width: 50%;
+  padding: 15px 45px 50px;
+  margin: 100px auto -125px;
+  background-color: hsl(217, 28%, 15%);
+  border: 2px;
+  border-radius: 8px;
+  z-index: +1;
+  box-shadow: 0 0 5px 8px hsl(217, 28%, 15%);
+}
+
+.access-heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.access-para {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 40px;
+  font-size: 15px;
+}
+
+.access-btn {
+  margin-left: 30px;
+  padding: 15px 40px;
+  font-size: 15px;
+  position: relative;
+  top: 5px;
+}
+
+.textBox {
+  padding: 23px 225px;
+  border-radius: 25px;
+  margin-left: 25px;
+  border: 0;
+}
+
+/* Footer */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 270px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.address {
+  margin: 0 0 0 40px;
+}
+
+.details {
+  margin-left: 575px;
+  padding-bottom: 25px;
+  margin-top: 75px;
+}
+
+footer {
+  background-color: hsl(216, 53%, 9%);
+  padding-top: 250px;
+  position: relative;
+}
+
+.footer-logo {
+  margin-bottom: 35px;
+}
+
+.fourth {
+    margin-left: 1200px;
+    padding-bottom: 25px;
+    margin-top: 75px;
+}
+
+.icons {
+  margin-right: 25px;
+}
+
+.location {
+  position: absolute;
+}
+
+.main-info {
+  display: inline-block;
+  margin-left: 160px;
+  width: 150%;
+}
+
+.row{
+  width: 15%;
+  position: absolute;
+  font-size: 16px;
+}
+
+.options {
+    margin-left: 900px;
+    padding-bottom: 25px;
+    margin-top: 75px;
+}
+
+.third {
+    margin-left: 1050px;
+    padding-bottom: 25px;
+    margin-top: 75px;
+}
+
+.social-icons {
+  margin-top: 20px;
+  margin-left: 15px;
+}
